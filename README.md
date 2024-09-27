@@ -20,6 +20,12 @@ Install dependencies:
 npm i
 ```
 
+Install the TypeScript definitions for the lodash-es library as a development dependency
+
+```bash
+npm install --save-dev @types/lodash-es
+```
+
 ## Build
 
 This sample uses the TypeScript compiler to produce JavaScript that runs in modern browsers.
