@@ -1,6 +1,10 @@
 # webcomponent-x6
 This repository contains a reusable web component for the popular JavaScript diagramming library X6
 
+- [Antv X6 – Official site](https://x6.antv.antgroup.com/)
+
+Antv X6 version: `2.18.1`
+
 ## Setup
 
 Install dependencies:
