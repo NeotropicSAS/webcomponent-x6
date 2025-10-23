@@ -6,14 +6,21 @@
     <title>&lt;x6-web-component> Demo</title>
     <script type="module" src="../x-6.js"></script>
     <style>
-      p {
-        border: solid 1px blue;
-        padding: 8px;
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      x-6 {
+        display: block;
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
   <body>
-    <x-6 graph_width=600 graph_height=600>
-    </x-6>
+    <x-6></x-6>
   </body>
 </html>
