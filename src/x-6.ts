@@ -1753,6 +1753,10 @@ export class X6 extends LitElement {
     }
   }
 
+  /**
+   * Removes a cell from the graph by its ID.
+   * @param id The ID of the cell to be removed.
+   */
   public removeCell(id: string){
     if(this.graph){
       const cell = this.graph.getCellById(id);
